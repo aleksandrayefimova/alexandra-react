@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Inter ;
+}
+
+.main-container{
+    margin:80px;
+
+}
+.main-container__pay{
+    display: flex;
+    gap: 35px;
+
+}
+
+.link_git{
+    text-decoration: none;
+    color: rgb(91, 49, 138);
+    font-weight: 700;
+    display: block;
+    margin: 0px 0px 20px 0px;
+
+}
