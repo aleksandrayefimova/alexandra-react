@@ -1,0 +1,45 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Heebo;
+
+}
+
+.container{
+  max-width: 1150px;
+  margin: 0 auto;
+  position: relative;
+
+}
+.wrapper_page{
+transition: all 0.5s ease;
+max-width: 682px;
+margin: 0 auto;
+
+}
+
+.wrapper_page_home{
+  transition: all 0.5s ease;
+  max-width: 858px;
+  margin: 0 auto;
+  
+  }
+
+
+
+@media (max-width: 768px){
+  .wrapper_page{
+    max-width: calc(90.4%);
+    
+    }
+}
+
+@media (max-width: 500px){
+  .wrapper_page{
+    margin: 0px 18px 0px 18px;
+    max-width: calc(90.4%); /* 339/375 */
+
+    }
+}
